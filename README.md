@@ -18,7 +18,7 @@ JavaScript Antes do Framework (React ou Vue.js)
 
 #
 
-#### 1.Tudo é Objeto
+# 1.Tudo é Objeto
 Um objeto possui propriedades e métodos quem podem ser diretos ou herdados (protótipo).
 
 #
