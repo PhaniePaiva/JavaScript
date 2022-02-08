@@ -1,7 +1,7 @@
 # JavaScript
 JavaScript Antes do Framework (React ou Vue.js)
 
-### TÓPICOS
+#### TÓPICOS
 
 <ul>
     <li>Tudo é objeto</li>
@@ -15,3 +15,8 @@ JavaScript Antes do Framework (React ou Vue.js)
     <li>Class</li>
     <li>Expressões</li>
 <ul>
+
+#
+
+#### 1.Tudo é Objeto
+Um objeto possui propriedades e métodos quem podem ser diretos ou herdados (protótipo).
