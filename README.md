@@ -14,7 +14,7 @@ JavaScript Antes do Framework (React ou Vue.js)
     <li>Arrays (map, filter, reduce)</li>
     <li>Class</li>
     <li>Expressões</li>
-<ul>
+</ul>
 
 #
 
