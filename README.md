@@ -32,3 +32,6 @@ A principal diferença é o contexto do this. A arrow function não cria o próp
 #### OBS: O this faz referência ao objeto criado pela função. A arrow function consegue ignorar isso, e manter como referência o objeto pai.
 
 #
+
+# 3.Destructuring
+Desestruturar objetos e arrays.
