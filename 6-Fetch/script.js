@@ -37,4 +37,5 @@ headers: {
 redirect: "follow",
 referrer: "no-referrer",
 body: JSON.stringify(data)
+
 });
