@@ -51,5 +51,8 @@ Os módulos servem para quebrarmos o código em diferente arquivos, para facilit
 Envia requisições assíncronas(Esse código irá roda no tempo dele e não travará o resto mesmo estando lento) para o servidor. Serve para acessarmos/escrevermos dados em apis externas.
 
 #
+# Async / Await
+Fetch retorna uma promisse. É possível criarmos funções assíncronas, que irão esperar a promisse resolver, antes de continuar com o código.
+
 
 
