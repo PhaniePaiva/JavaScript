@@ -45,3 +45,10 @@ Você irá utilizar o spread para espalhar dados de um conjunto de dados (array,
 # 5.Module
 Os módulos servem para quebrarmos o código em diferente arquivos, para facilitar a organização e compartilhamento de código comum.
 
+#
+
+# 6.Fetch
+Envia requisições assíncronas(Esse código irá roda no tempo dele e não travará o resto mesmo estando lento) para o servidor. Serve para acessarmos/escrevermos dados em apis externas.
+
+#
+
