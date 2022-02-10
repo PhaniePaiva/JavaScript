@@ -52,3 +52,4 @@ Envia requisições assíncronas(Esse código irá roda no tempo dele e não tra
 
 #
 
+
