@@ -65,6 +65,8 @@ const precos = [ "Crédito", "R$ 200", "R$ 400", "Contas Pagar", "R$ 300", "R$ 4
 
 <h5>Métodos para iterarmos entre os valores de arrays.</h5>
 
+#
+
 <ul>
 <li><strong>Filter:</strong> O método <code>filter()</code> cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida. </li>
 </ul>
@@ -100,7 +102,7 @@ console.log(precosNumero);
 </li>
 </ul>
 
-#### OBS: console.log(array1.reduce(reducer, 5));
+#### OBS: A função reducer recebe quatro parâmetros:
 #### 1.Acumulador (acc)
 #### 2.Valor Atual (cur)
 #### 3.Index Atual (idx)
