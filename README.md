@@ -58,6 +58,9 @@ Fetch retorna uma promisse. É possível criarmos funções assíncronas, que ir
 #
 # Arrays 
 São geralmente descritas como "lista de objetos"; elas são basicamente objetos que contem múltiplos valores armazenados em uma lista.
+<code>
+const precos = [ "Crédito", "R$ 200", "R$ 400", "Contas Pagar", "R$ 300", "R$ 400", "Meus dados" ];
+</code>
 
 <h5>Métodos para iterarmos entre os valores de arrays.</h5>
 
@@ -66,8 +69,6 @@ São geralmente descritas como "lista de objetos"; elas são basicamente objetos
 </ul>
 
 <code>
-const precos = [ "Crédito", "R$ 200", "R$ 400", "Contas Pagar", "R$ 300", "R$ 400", "Meus dados" ];
-
 const precosFiltro = precos.filter( precos => precos.includes("R$"));
 console.log(precosFiltro);
 
