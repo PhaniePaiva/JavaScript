@@ -69,24 +69,31 @@ const precos = [ "Crédito", "R$ 200", "R$ 400", "Contas Pagar", "R$ 300", "R$ 4
 <li><strong>Filter:</strong> O método <code>filter()</code> cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida. </li>
 </ul>
 
+#
+
 <code>
-const precosFiltro = precos.filter( precos => precos.includes("R$"));
+const precosFiltro = precos.filter( precos => precos.includes("R$"));<br>
 console.log(precosFiltro);
 
 </code>
+
+#
 
 <ul>
 <li><strong>Map:</strong> O método map chama a função callback recebida por parâmetro para cada elemento do Array original, em ordem, e constrói um novo array com base nos retornos de cada chamada. A função callback é chamada apenas para os elementos do array original que tiverem valores atribuídos;</li>
 </ul>
 
+#
+
 <code>
-const precosNumero = precosFiltro.map( precos => 
-    Number(precos.replace("R$ ", ""))
-);
+const precosNumero = precosFiltro.map( precos => <br>
+    Number(precos.replace("R$ ", ""))<br>
+);<br>
 console.log(precosNumero);
 
 </code>
 
+#
 
 <ul>
 <li><strong>Reduce:</strong>O método <code>reduce()</code> executa uma função reducer (fornecida por você) para cada elemento do array, resultando num único valor de retorno.
@@ -100,10 +107,12 @@ console.log(precosNumero);
 #### 4.Array original (src)
 #### O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
 
+#
+
 <code>
-const total = precoNumeros.reduce(function(acc, cur){
-    return acc + cur;
-});
+const total = precoNumeros.reduce(function(acc, cur){<br>
+    return acc + cur;<br>
+});<br>
 console.log(total);
 
 </code>
