@@ -64,7 +64,7 @@ const precos = [ "Crédito", "R$ 200", "R$ 400", "Contas Pagar", "R$ 300", "R$ 4
 </code>
 
 <h5>Métodos para iterarmos entre os valores de arrays.</h5>
-
+s
 #
 
 <ul>
