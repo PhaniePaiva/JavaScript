@@ -118,3 +118,10 @@ const total = precoNumeros.reduce(function(acc, cur){<br>
 console.log(total);
 
 </code>
+
+#
+# Expressões
+Expressões regulares são padrões utilizados para selecionar combinações de caracteres em uma string. Em JavaScript, expressões regulares também são objetos.
+
+#
+#### Expresssões e Operadores: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
